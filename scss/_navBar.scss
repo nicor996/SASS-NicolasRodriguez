@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+.navbar {
+    background-color: $colorPrimario;
+}
+
+.navAux{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-item{
+    border-radius: 5px;
+
+    &:hover {
+        background: $colorSecundario;
+        transition: all 0.2s linear;
+    }
+}
