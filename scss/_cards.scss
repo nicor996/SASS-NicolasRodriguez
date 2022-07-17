@@ -1,9 +1,0 @@
-@import "variables.scss";
-
-.cardBod {
-    
-    &:hover {
-        box-shadow: 5px 5px 20px $color2;
-        transform: translateY(-3%);
-    }
-}
